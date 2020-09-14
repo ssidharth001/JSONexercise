@@ -1,0 +1,7 @@
+userObj = {
+        "first name":"abc",
+        "lastname":"",
+        "username":"abc123",
+        "email":"abc@abc.com",
+        "password":"pass"
+        }

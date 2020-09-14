@@ -1,0 +1,7 @@
+bookObj = {
+            "title":"book",
+            "author": "Tim",
+            "books" : ["BookA", "BookB", "BookC"]
+            }
+
+bookObj.books[0] = BookA

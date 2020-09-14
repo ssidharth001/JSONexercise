@@ -1,0 +1,10 @@
+markObj = {
+            "name":"sam",
+            "rollnumber":30,
+            "marks": {
+                        "maths": 80,
+                        "science":85,
+                        "english":76
+                        }
+            }
+markObj.marks.maths = 80
