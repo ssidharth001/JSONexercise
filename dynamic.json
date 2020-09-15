@@ -2,12 +2,10 @@
 shopbycatogObj = {
                     "catogory-list" : [
                                     {
-                                        "sectionA": [{"productA":"productA_url.html",
-                                                    "product-url":"url.html"}]
+                                        "sectionA": [{"productA":"productA_url.html"}]
                                     },
                                     {
-                                        "sectionB": [{"productB":"productB_url.html",
-                                                    "product-url":"url.html"}]}],
+                                        "sectionB": [{"productB":"productB_url.html"}]}],
                                     }]
                     }
 
