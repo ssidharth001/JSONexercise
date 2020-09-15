@@ -1,7 +1,6 @@
-#shop by category
-shopbycatogObj = {
-                    "catogory-list" : [
-                                    {
+#shop by category dropdown
+shopbycatogddObj = {
+                    "catogory-list" : [{
                                         "sectionA": [{"productA":"productA_url.html"}]
                                     },
                                     {
@@ -11,8 +10,7 @@ shopbycatogObj = {
 
 #slider
 sliderObj = {
-                "slider-image" : [
-                                {
+                "slider-image" : [{
                                     "img": "images/bg_1.jpg",
                                     "offer-url":"url.html"
                                 },
@@ -25,20 +23,21 @@ sliderObj = {
 
 #featured product category
 featuredObj = {
-                "products":[
-                            {
-                                "product-name":"",
-                                "product-weight":,
-                                "product-image":".png",
+                "products":[{
+                                "product-name":"prodA",
+                                "product-discount": 15,
+                                "product-weight":100,
+                                "product-image":"prodA.png",
                                 "product-price": 100,
                                 "product-url":"url.html",
                                 "product-packsize":[{"pack1":200,
                                                     "pack2":300}]
                             },
                             {
-                                "product-name":"",
-                                "product-weight":,
-                                "product-image":".png",
+                                "product-name":"prodB",
+                                "product-discount": 15,
+                                "product-weight":100,
+                                "product-image":"prodB.png",
                                 "product-price": 100,
                                 "product-url":"url.html",
                                 "product-packsize":[{"pack1":200,
@@ -46,17 +45,30 @@ featuredObj = {
                             }]
                 }
 
+#shop by category 
+shopcatogObj = {
+                "category-image" : [{
+                                    "img": "images/bg_1.jpg",
+                                    "offer-url":"url.html"
+                                    },
+                                    {
+                                    "img": "images/bg_2.jpg",
+                                    "offer-url":"url.html"
+                                }]
+                }
+
 #fruit and vegitables
 fruandvegObj = {
-                "products":[
-                            {
+                "products":[{
                                 "product-name":"productA",
+                                "product-discount": 15,
                                 "product-image":"prodA.png",
                                 "product-price": 100,
                                 "product-url":"url.html"
                             },
                             {
                                 "product-name":"productB",
+                                "product-discount": 15,
                                 "product-image":"prodB.png",
                                 "product-price": 100,
                                 "product-url":"url.html"
@@ -65,14 +77,28 @@ fruandvegObj = {
 
 #popular brands
 popularbrandObj = {
-                    "brands":[
-                                {
+                    "brands":[{
                                     "brand-image":"brand1.png",
                                     "brand-url":"url1.html"
                                 },
                                 {
                                     "brand-image":"brand2.png",
                                     "brand-url":"url2.html"
-                                }
-                            ]
+                                }]
+                    }
+
+#snacks and branded food
+snackandbrandObj = {
+                    "products":[{
+                                    "product-name":"productA",
+                                    "product-image":"prodA.png",
+                                    "product-discount": 15,
+                                    "product-url":"url.html"
+                                },
+                                {
+                                    "product-name":"productB",
+                                    "product-image":"prodB.png",
+                                    "product-discount": 15,
+                                    "product-url":"url.html"
+                                }]
                     }
