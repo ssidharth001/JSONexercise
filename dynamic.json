@@ -1,0 +1,80 @@
+#shop by category
+shopbycatogObj = {
+                    "catogory-list" : [
+                                    {
+                                        "sectionA": [{"productA":"productA_url.html",
+                                                    "product-url":"url.html"}]
+                                    },
+                                    {
+                                        "sectionB": [{"productB":"productB_url.html",
+                                                    "product-url":"url.html"}]}],
+                                    }]
+                    }
+
+#slider
+sliderObj = {
+                "slider-image" : [
+                                {
+                                    "img": "images/bg_1.jpg",
+                                    "offer-url":"url.html"
+                                },
+                                {
+                                    "img": "images/bg_2.jpg",
+                                    "offer-url":"url.html"
+                                }]
+            }
+
+
+#featured product category
+featuredObj = {
+                "products":[
+                            {
+                                "product-name":"",
+                                "product-weight":,
+                                "product-image":".png",
+                                "product-price": 100,
+                                "product-url":"url.html",
+                                "product-packsize":[{"pack1":200,
+                                                    "pack2":300}]
+                            },
+                            {
+                                "product-name":"",
+                                "product-weight":,
+                                "product-image":".png",
+                                "product-price": 100,
+                                "product-url":"url.html",
+                                "product-packsize":[{"pack1":200,
+                                                    "pack2":300}]
+                            }]
+                }
+
+#fruit and vegitables
+fruandvegObj = {
+                "products":[
+                            {
+                                "product-name":"productA",
+                                "product-image":"prodA.png",
+                                "product-price": 100,
+                                "product-url":"url.html"
+                            },
+                            {
+                                "product-name":"productB",
+                                "product-image":"prodB.png",
+                                "product-price": 100,
+                                "product-url":"url.html"
+                            }]
+                }
+
+#popular brands
+popularbrandObj = {
+                    "brands":[
+                                {
+                                    "brand-image":"brand1.png",
+                                    "brand-url":"url1.html"
+                                },
+                                {
+                                    "brand-image":"brand2.png",
+                                    "brand-url":"url2.html"
+                                }
+                            ]
+                    }
