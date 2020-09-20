@@ -1,40 +1,77 @@
 #shop by category dropdown
-shopbycatogddObj = {
-                    "catogory-list" : [{
-                                        "sectionA": [{"productA":"productA_url.html"}]
-                                    },
-                                    {
-                                        "sectionB": [{"productB":"productB_url.html"}]}],
-                                    }]
+{
+"catogory-list" : 
+                    {
+                        "category-list-1":
+                        {
+                            "title":"Fruits & Vegetables",
+                            "options":{
+                                
+                                "option-1":{
+                                    "title":"Herbs",
+                                    "url": "/herbs.html",
+                                    "subOptions":[
+                                        {
+                                            "title":"Lemon",
+                                            "url": "/lemon.html"
+                                        },
+                                        {
+                                            "title":"Ginger",
+                                            "url": "/ginger.html"
+                                        }
+                                    ]
+                                },
+                                
+                                "option-2":{
+                                    "title":"Fresh Fruit",
+                                    "url": "/fresh_fruit.html",
+                                },
+                            }
+                        },
+                        
+                        "category-list-2":{
+                            "title":"Milk & Milk Products",
+                            "options":{
+                                
+                                "option-1":{
+                                    "title":"Herbs",
+                                    "url": "/fresh_fruit.html",
+                                },
+                                
+                                "option-2":{
+                                    "title":"Fresh Fruit",
+                                    "url": "/fresh_fruit.html",
+                                },
+                            }
+                        }
                     }
+                }
 
 #slider
-sliderObj = {
-                "slider-image" : [{
-                                    "img": "images/bg_1.jpg",
-                                    "offer-url":"url.html"
+{
+"slider-image" : [{
+                                    "img": "images/bg_1.jpg",                                    
                                 },
                                 {
-                                    "img": "images/bg_2.jpg",
-                                    "offer-url":"url.html"
+                                    "img": "images/bg_2.jpg",    
                                 }]
             }
 
 
 #featured product category
-featuredObj = {
-                "products":[{
-                                "product-name":"prodA",
+{ "title":"Featured Products",
+                "products":{"product-1":{
+                                "product-name":"Tulsi California Almond Premium, 200g",
                                 "product-discount": 15,
                                 "product-weight":100,
-                                "product-image":"prodA.png",
+                                "product-image":"Tulsi_California_Almond_Premium.png",
                                 "product-price": 100,
-                                "product-url":"url.html",
+                                "product-url":"/Tulsi_California_Almond_Premium.html",
                                 "product-packsize":[{"pack1":200,
                                                     "pack2":300}]
                             },
-                            {
-                                "product-name":"prodB",
+                            "product-2":{
+                                "product-name":"Tulsi California Almond Premium, 200g",
                                 "product-discount": 15,
                                 "product-weight":100,
                                 "product-image":"prodB.png",
@@ -42,11 +79,11 @@ featuredObj = {
                                 "product-url":"url.html",
                                 "product-packsize":[{"pack1":200,
                                                     "pack2":300}]
-                            }]
+                            }}
                 }
 
 #shop by category 
-shopcatogObj = {
+{
                 "category-image" : [{
                                     "img": "images/bg_1.jpg",
                                     "offer-url":"url.html"
@@ -58,47 +95,47 @@ shopcatogObj = {
                 }
 
 #fruit and vegitables
-fruandvegObj = {
-                "products":[{
-                                "product-name":"productA",
+{"title":"Fruit and Vegitables",
+                "products":{"product-1":{
+                                "product-name":"BELL PEPPER",
                                 "product-discount": 15,
-                                "product-image":"prodA.png",
+                                "product-image":"bell_pepper.png",
                                 "product-price": 100,
-                                "product-url":"url.html"
+                                "product-url":"/bell_pepper.html"
                             },
-                            {
-                                "product-name":"productB",
+                            "product-2":{
+                                "product-name":"STRAWBERRY",
                                 "product-discount": 15,
                                 "product-image":"prodB.png",
                                 "product-price": 100,
-                                "product-url":"url.html"
-                            }]
+                                "product-url":"/strawberry.html"
+                            }}
                 }
 
 #popular brands
-popularbrandObj = {
+{ "title":"Popular Brands",
                     "brands":[{
-                                    "brand-image":"brand1.png",
-                                    "brand-url":"url1.html"
+                                    "brand-image":"aashirvadh.png",
+                                    "brand-url":"/aashirvadh.html"
                                 },
                                 {
-                                    "brand-image":"brand2.png",
-                                    "brand-url":"url2.html"
+                                    "brand-image":"amul.png",
+                                    "brand-url":"/amul.html"
                                 }]
                     }
 
 #snacks and branded food
-snackandbrandObj = {
-                    "products":[{
-                                    "product-name":"productA",
-                                    "product-image":"prodA.png",
+{"title":"Snacks and Branded Food",
+    "products":{"product-1":{
+                                    "product-name":"Tulsi California Almond Premium, 200g",
+                                    "product-image":"Tulsi_California_Almond_Premium.png",
                                     "product-discount": 15,
-                                    "product-url":"url.html"
+                                    "product-url":"/Tulsi_California_Almond_Premium.html"
                                 },
-                                {
-                                    "product-name":"productB",
-                                    "product-image":"prodB.png",
+                                "product-2":{
+                                    "product-name":"Tulsi California Almond Premium, 200g",
+                                    "product-image":"Tulsi_California_Almond_Premium.png",
                                     "product-discount": 15,
-                                    "product-url":"url.html"
-                                }]
+                                    "product-url":"/Tulsi_California_Almond_Premium.html"
+                                }}
                     }
